@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #21222A;
+  width: 100%;
+  height: 100%;
+
+
+
+
+}
+.nav-item {
+  float: right;
+  display: flex;
+  width: 800;
+  margin-right: 50px;
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  /* line-height: 0px; */
+  text-align: right;
+
+  color: #DEEBF8;
+}
+/* this works */
+/* .nav-item > * {
+padding: 5px;
+} */
+/* you can also use this */
+/* .nav-item > h3 {
+  padding: 20px;
+} */
+
+.image {
+  width: 800px;
+  margin-left: 40px;
+
+  font-family: 'Inter';
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 40px;
+  letter-spacing: -0.05em;
+
+  color: #61DAFB;
+
+}
+.image > ReactFacts {
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.main-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* left: 20px; */
+    /* top: 91px; */
+
+
+  background: #282D35;
+}
+.h1title{
+  /* text-align: center; */
+  width: 800px;
+  height: 41px;
+  margin-left: 20px;
+  margin-top: 70px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+
+  color: #FFFFFF;
+
+
+}
+.body_text {
+  margin-left: 70px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ellipsis{
+position: absolute;
+width: 9.61px;
+height: 9.61px;
+left: 51px;
+top: 239px;
+
+background: #61DAFB;
+
 }
