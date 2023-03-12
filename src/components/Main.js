@@ -2,7 +2,7 @@ import React from "react"
 
     function Main() {
         return(
-            <div className="main-content">
+            <div className="main-content" >
                 <h1 className="h1title">Fun facts about React</h1>
                 <ul className="body_text">
                 <li>Was first released in 2013</li>

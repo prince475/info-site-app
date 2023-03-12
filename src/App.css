@@ -1,3 +1,23 @@
+body{
+
+  background-image: url("../src/images/react-icon-large.png");
+
+  background-color: #282D35;
+  background-repeat: no-repeat;
+  background-position: 100% 110%;
+  background-size: 150px 300px;
+  /* height: 222.74px;
+  width: 222.74px;
+  top: 30px;
+  left: 10px; */
+  /* background-image: inherit; */
+  /* background-image: initial; */
+  /* background-image: revert; */
+  /* background-image: revert-layer; */
+  /* background-image: unset; */
+}
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -55,14 +75,12 @@ padding: 5px;
 }
 
 .main-content {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 100%;
     /* left: 20px; */
     /* top: 91px; */
 
-
-  background: #282D35;
 }
 .h1title{
   /* text-align: center; */
@@ -96,13 +114,13 @@ padding: 5px;
 
 }
 
-ellipsis{
-position: absolute;
+li::marker{
 width: 9.61px;
 height: 9.61px;
+font-size: 1.4em;
 left: 51px;
 top: 239px;
 
-background: #61DAFB;
+color: #61DAFB;
 
 }
