@@ -55,10 +55,8 @@ padding: 5px;
   padding: 20px;
 } */
 
-.image {
-  width: 800px;
-  margin-left: 40px;
-
+.navbar > h2{
+margin-right: auto;
   font-family: 'Inter';
   font-family: 'Inter';
   font-style: normal;
@@ -69,8 +67,15 @@ padding: 5px;
 
   color: #61DAFB;
 
+
 }
-.image > ReactFacts {
+
+.image {
+  width: 60px;
+  margin-left: 40px;
+
+}
+.image > h2 {
   padding: 20px;
 }
 
